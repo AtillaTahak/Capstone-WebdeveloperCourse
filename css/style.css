@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato,sans-serif;
+}
+.fa-bars{
+    font-size: 3rem;
+
+}
+.home-page{
+    background-image: url("/capstone-project/img/background.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    padding: 24px;
+    margin-bottom: 100px;
+
+}
+.title h5{
+    margin-top: 100px;
+
+    color: #EC5242;
+    font-size: 1.5rem;
+}
+.title h1{
+    color: #EC5242;
+    font-size: 3rem;
+}
+.title-content{
+    background: rgb(248, 246, 246);
+    border: 4px solid #fff;
+    padding: 12px 12px;
+}
+.title-content p{
+
+    color: #272a31;
+    font-size: 16px;
+}
+.title-date{
+    padding: 20px 0;
+}
+.title-date h3{
+    font-size: 24px;
+  color: #272a31;
+  font-weight: 700;
+}
+.title-date p{
+    font-size: 18px;
+  color: #272a31;
+  font-weight: 500;
+
+}
+.home-program{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    background-color: #272A31;
+    color: white;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+
+}
+.program-title h4{
+    font-size: 1.7rem;
+}
+
+.program-list-card{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+  
+    padding: 20px 20px;
+    margin: 12px 12px;
+    background-color: #3C3F46;
+}
+
+.program-list-card h4{
+    display: inline;
+    margin-left: 10px;
+    color: #EC5242 ;
+    font-size: 1.1rem;
+}
+.program-list-card i{
+    font-size: 2.3rem;
+}
+.program-paragraph{
+    padding: 32px 32px;
+    background-color: #EC5242;
+}
+.program-paragraph a{
+    text-decoration: none;
+    color: white;
+}
+.program-speakers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    margin-top: 150px;
+}
+.speakers{
+    display: flex;
+    padding: 20px 20px;
+    margin: 12px 12px;
+}
+.speaker-img{
+    background-image: url("/capstone-project/img/cheked.webp");
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+.program-speakers h2{
+    margin-bottom: 10px;
+}
+.program-speakers img{
+    position:relative;
+    left: 25px;
+    top: 25px;
+    width: 150px;
+}
+
+.speakers-text {
+    margin-left: 44px;
+}
+.speakers-text h5{
+    font-size: large;
+    margin-bottom: 6px;
+}
+
+.speakers-text h6{
+    font-size:medium;
+    color: #EC5242;
+    margin-bottom: 24px;
+}
+
+.speakers-text p{
+   font-size:small;
+}
+.speakers-more{
+    border: 1px solid #272a31;
+    padding: 1% 30vw;
+}
+.speakers-more a{
+    text-decoration: none;
+    color: #272a31;
+}
+.fa-arrow-down{
+    color: #EC5242;
+    margin-left: 12px;
+}
+hr{
+    border: 1px solid #EC5242;
+    width: 50px;
+    margin-bottom: 40px;
+}
