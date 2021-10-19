@@ -1,0 +1,155 @@
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.title-content{
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.title-date{
+    margin-top: 25px;
+}
+.title-date span{
+    font-size:medium;
+    text-align: center;
+    display: block;
+}
+.about-logo{
+    margin-top: 24px;
+    border: 1px solid #d3d3d3;
+}
+.about-logo i{
+    font-size: 15rem;
+    padding: 35px 35px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.partners{
+    display: block;
+    background-color: #454448;
+    height: auto;
+}
+.partners-icons ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.partners-icons img{
+    width: 20vw;
+    height: auto;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo i{
+   font-size: 5rem;
+   margin-right: 150px;
+}
+.hor-line{
+    width: 100%;
+    border-color: #d3d3d3;
+    margin-top: 5%;
+}
+.content-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.course-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:10%;
+    height: 35vh;
+    width: 75vw;
+    background-image: url("../img/course-1.jpg"),linear-gradient(rgba(212, 14, 14, 0.5),rgba(228, 22, 22, 0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.course-1 >h2{
+    color: white;
+}
+.course-2 >h2{
+    color: white;
+}
+.course-1 >p{
+    color: white;
+    font-weight: bold;
+}
+.course-2 >p{
+    color: white;
+   font-weight: bold;
+}
+
+.course-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:10%;
+    height: 35vh;
+    width: 75vw;
+    background-image: url("../img/course-2.jpg"),linear-gradient(rgba(212, 14, 14, 0.5),rgba(228, 22, 22, 0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.course-1:hover{
+    transform: scale(1.1);
+}
+.course-2:hover{
+    transform: scale(1.1);
+}
+.partners-icons{
+    padding-bottom: 40px;
+}
+.about-logo{
+    animation-duration: 3s;
+    animation-name: slinder;
+}
+@keyframes slinder{
+    from {
+        transform: rotate(270deg);
+      }
+    
+      to {
+        transform: rotate(360deg);
+      }
+}
+@media screen and (min-width:768px) {
+    .courses{
+        display: flex;
+        flex-direction: row;
+        height: 50vh;
+        width: 50vw;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .course-1{
+        margin-right: 20px;
+    }
+
+    
+}

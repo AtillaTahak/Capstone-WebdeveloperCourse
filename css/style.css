@@ -25,7 +25,7 @@ footer{
 }
 
 .home-page {
-    background-image: url("/Capstone-WebdeveloperCourse/img/background.jpg");
+    background-image: url("/Capstone-WebdeveloperCourse/img/background-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -321,6 +321,8 @@ hr {
         flex-direction: row;
         list-style: none;
         justify-content: space-around;
+        padding-bottom: 40px;
+
     }
     .partners-icons img{
         width: 200px;
