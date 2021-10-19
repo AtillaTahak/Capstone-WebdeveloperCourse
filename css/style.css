@@ -23,6 +23,50 @@
 footer{
     display: none;
 }
+.mobile-module-overlay{
+    position: fixed; 
+    z-index: 2;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(230, 32, 32, 0.8); 
+    display: none;
+
+}
+.desktop-module-nav{
+    position: fixed;
+    z-index: 3;
+    margin-top: 15%;
+    margin-left: 5%;
+    display: none;
+}
+.desktop-module-nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   list-style: none;
+}
+.desktop-module-nav ul li{
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+.desktop-module-nav ul li a{
+    color: white;
+}
+.modal-1{
+    position:absolute;
+    left:120%;
+    bottom:110%;
+    cursor: pointer;
+}
+.fa-bars{
+    cursor: pointer;
+}
 
 .home-page {
     background-image: url("/Capstone-WebdeveloperCourse/img/background-1.jpg");
@@ -33,7 +77,7 @@ footer{
     justify-content: space-around;
     height: auto;
     padding: 24px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .title h5 {
