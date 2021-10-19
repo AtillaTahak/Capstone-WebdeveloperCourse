@@ -1,18 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Lato,sans-serif;
+    font-family: Lato, sans-serif;
 }
-.fa-bars{
-    font-size: 3rem;
 
+
+.fa-bars {
+    font-size: 3rem;
 }
-.home-page{
-    background-image: url("/capstone-project/img/background.jpg");
-    background-repeat:no-repeat;
+
+.desktop-header {
+    display: none;
+}
+.program-paragraph-desktop{
+    display: none;
+}
+.partners{
+    display: none;
+}
+footer{
+    display: none;
+}
+
+.home-page {
+    background-image: url("/Capstone-WebdeveloperCourse/img/background.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -20,43 +34,47 @@
     height: auto;
     padding: 24px;
     margin-bottom: 100px;
-
 }
-.title h5{
-    margin-top: 100px;
 
+.title h5 {
+    margin-top: 100px;
     color: #EC5242;
     font-size: 1.5rem;
 }
-.title h1{
+
+.title h1 {
     color: #EC5242;
     font-size: 3rem;
 }
-.title-content{
+
+.title-content {
     background: rgb(248, 246, 246);
     border: 4px solid #fff;
     padding: 12px 12px;
 }
-.title-content p{
 
+.title-content p {
     color: #272a31;
     font-size: 16px;
 }
-.title-date{
+
+.title-date {
     padding: 20px 0;
 }
-.title-date h3{
-    font-size: 24px;
-  color: #272a31;
-  font-weight: 700;
-}
-.title-date p{
-    font-size: 18px;
-  color: #272a31;
-  font-weight: 500;
 
+.title-date h3 {
+    font-size: 24px;
+    color: #272a31;
+    font-weight: 700;
 }
-.home-program{
+
+.title-date p {
+    font-size: 18px;
+    color: #272a31;
+    font-weight: 500;
+}
+
+.home-program {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -65,63 +83,83 @@
     background-color: #272A31;
     color: white;
     padding-top: 32px;
-    padding-bottom: 32px;
-
+    padding-bottom: 100px;
 
 }
-.program-title h4{
+
+.program-title h4 {
     font-size: 1.7rem;
 }
 
-.program-list-card{
+.program-list-card {
     display: grid;
-    grid-template-columns: 1fr  1fr;
-  
+    grid-template-columns: 1fr 1fr;
     padding: 20px 20px;
     margin: 12px 12px;
     background-color: #3C3F46;
 }
 
-.program-list-card h4{
+.program-list-card h4 {
     display: inline;
     margin-left: 10px;
-    color: #EC5242 ;
+    color: #EC5242;
     font-size: 1.1rem;
 }
-.program-list-card i{
+
+.program-list-card i {
     font-size: 2.3rem;
 }
-.program-paragraph{
+
+.program-paragraph {
     padding: 32px 32px;
     background-color: #EC5242;
 }
-.program-paragraph a{
+
+.program-paragraph a {
     text-decoration: none;
     color: white;
 }
-.program-speakers{
+
+.program-speakers {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height: auto;
-    margin-top: 150px;
+    margin-top: 50px;
 }
-.speakers{
+.program-speakers-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+hr {
+    text-align: center;
+    align-items: center;
+    border: 1px solid #EC5242;
+    width: 50px;
+    margin-bottom: 40px;
+}
+.speakers {
     display: flex;
     padding: 20px 20px;
     margin: 12px 12px;
 }
-.speaker-img{
-    background-image: url("/capstone-project/img/cheked.webp");
+
+.speaker-img {
+    background-image: url("/Capstone-WebdeveloperCourse/img/cheked.webp");
     background-repeat: no-repeat;
     background-size: 150px;
 }
-.program-speakers h2{
+
+.program-speakers h2 {
     margin-bottom: 10px;
 }
-.program-speakers img{
-    position:relative;
+
+.program-speakers img {
+    position: relative;
     left: 25px;
     top: 25px;
     width: 150px;
@@ -130,34 +168,222 @@
 .speakers-text {
     margin-left: 44px;
 }
-.speakers-text h5{
+
+.speakers-text h5 {
     font-size: large;
     margin-bottom: 6px;
 }
 
-.speakers-text h6{
-    font-size:medium;
+.speakers-text h6 {
+    font-size: medium;
     color: #EC5242;
     margin-bottom: 24px;
 }
 
-.speakers-text p{
-   font-size:small;
+.speakers-text p {
+    font-size: small;
 }
-.speakers-more{
+
+.speakers-more {
     border: 1px solid #272a31;
     padding: 1% 30vw;
+    margin-bottom: 50px;
 }
-.speakers-more a{
+
+.speakers-more a {
     text-decoration: none;
     color: #272a31;
 }
-.fa-arrow-down{
+
+.fa-arrow-down {
     color: #EC5242;
     margin-left: 12px;
 }
-hr{
-    border: 1px solid #EC5242;
-    width: 50px;
-    margin-bottom: 40px;
+
+
+@media screen and (min-width: 768px) {
+    .desktop-header{
+        display: inline;
+
+    }
+    .social-link {
+        background-color: #272a31;
+        display: flex;
+        height: 5vh;
+        align-content: center;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .fa-facebook-f{
+        color: white;
+        margin-right: 12px;
+
+    }
+    .fa-twitter{
+        color: white;
+        margin-right: 12px;
+
+    }
+    .social-link a{
+        text-decoration: none;
+        color: white;
+        margin-right: 12px;
+
+    }
+    .mobile-nav {
+        display: none;
+    }
+    .desktop-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: white;
+        align-items: center;
+        padding-left: 150px;
+        padding-right: 150px;
+
+        width: 100%;
+    }
+    .desktop-nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    .desktop-nav li {
+        margin-left: 40px;
+    }
+    .nav-box {
+        border: 4px solid #EC5242;
+        padding: 12px;
+    }
+    .title-content{
+        margin-top: 40px;
+        width: 35rem;
+    }
+   .program-list{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 130px;
+       margin-right: 130px;
+       margin-top: 50px;
+       margin-bottom: 50px;
+       flex-wrap: wrap;
+
+   }
+   .program-list-card{
+       display: flex;
+       flex-direction: column;
+       margin: 1px 1px;
+       width: 200px;
+       height: 220px;
+   }
+   .program-list-card i {
+    display: block;
+    margin-bottom: 12px;
+    }
+   .program-list-card h4 {
+    display: block;
+    margin-bottom: 12px;
+    margin-left: 0;
+
+    }
+    .program-list-card p {
+        display: block;
+     }
+     .program-paragraph{
+         display: none;
+     }
+     .program-paragraph-desktop{
+         display: inline;
+     }
+     .program-paragraph-desktop a{
+        text-decoration: underline;
+        color: white;
+    }
+    .speakers-more{
+        display: none;
+    }
+    .program-speakers{
+        display: grid;
+        grid-template-columns:40% 40%;
+        align-content: center;
+        justify-content: center;
+        align-items: center;    
+    }
+    .partners{
+        display:block;
+        background-color:#454448;
+        height: 200px;
+    }
+    .partners-icons ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-around;
+    }
+    .partners-icons img{
+        width: 200px;
+        height: 100px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-logo i{
+       font-size: 5rem;
+       margin-right: 150px;
+    }
+}
+
+li>a{
+    text-decoration: none;
+    color:#272a31;
+
+}
+a:hover{
+    text-decoration: underline;
+    color:#EC5242;
+}
+a>i:hover{
+    text-decoration: underline;
+    color:#EC5242;
+}
+.program-list-card:hover{
+    border: 2px solid white;
+    transform: scale(1.08);
+}
+.program-paragraph a:hover{
+    background-color: white;
+}
+
+.logo {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      transform: rotate(270deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .title-content p:hover{
+      transform: translate(20px);
+  }
+  .title h1:hover{
+      transform: scale(1.05);
+  }
+  .title h5:hover{
+    transform:translate(20px)
+}
+.title-date h3:hover{
+    transform:scale(1.05);
+}
+.title-date p:hover{
+    transform: translate(20px);
 }
