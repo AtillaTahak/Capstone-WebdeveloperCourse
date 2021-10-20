@@ -21,11 +21,36 @@
 }
 
 .partners {
-  display: none;
+  display: block;
+  background-color: #454448;
+  height: auto;
+}
+
+.partners-icons ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+.partners-icons img {
+  width: 200px;
+  height: 100px;
 }
 
 footer {
-  display: none;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo i {
+  font-size: 5rem;
+  margin-right: 150px;
 }
 
 .mobile-module-overlay {
@@ -402,37 +427,6 @@ hr {
     align-items: center;
   }
 
-  .partners {
-    display: block;
-    background-color: #454448;
-    height: 200px;
-  }
-
-  .partners-icons ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-around;
-    padding-bottom: 40px;
-  }
-
-  .partners-icons img {
-    width: 200px;
-    height: 100px;
-  }
-
-  footer {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .footer-logo i {
-    font-size: 5rem;
-    margin-right: 150px;
-  }
 }
 
 a > i:hover {
