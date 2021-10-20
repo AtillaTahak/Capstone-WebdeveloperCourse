@@ -303,6 +303,10 @@ hr {
   margin-left: 12px;
 }
 
+.partner-title {
+  margin-top: 5%;
+}
+
 @media screen and (min-width: 768px) {
   .desktop-header {
     display: inline;

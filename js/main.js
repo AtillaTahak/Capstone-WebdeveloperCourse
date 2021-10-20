@@ -73,7 +73,7 @@ window.addEventListener('load', () => {
         element.innerHTML = `
             <div class="speakers">
             <div class="speaker-img">
-                <img src="${speakers[index].image1}" alt="">
+                <img src="${speakers[index].image1}" alt="${speakers[index].names}">
             </div>
             <div class="speakers-text">
                 <h5>${speakers[index].names}</h5>
@@ -91,7 +91,7 @@ window.addEventListener('load', () => {
       element.innerHTML = `
           <div class="speakers">
           <div class="speaker-img">
-              <img src="${e.image1}" alt="">
+              <img src="${e.image1}" alt="${e.names}">
           </div>
           <div class="speakers-text">
               <h5>${e.names}</h5>
@@ -117,7 +117,7 @@ loadMore.addEventListener('click', () => {
     element.innerHTML = `
         <div class="speakers">
         <div class="speaker-img">
-            <img src="${e.image1}" alt="">
+            <img src="${e.image1}" alt="${e.names}">
         </div>
         <div class="speakers-text">
             <h5>${e.names}</h5>
