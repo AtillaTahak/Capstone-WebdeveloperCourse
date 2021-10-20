@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://atillatahak.github.io/Capstone-WebdeveloperCourse/)
 
 ## Presentation
 
