@@ -57,7 +57,53 @@ const speakers = [
 ];
 
 window.addEventListener('load', () => {
+  if (window.innerWidth < 768) {
+    for (let index = 0; index < speakers.length; index += 1) {
+      if (index === 2) {
+        break;
+      } else {
+        const element = document.createElement('future-speakers');
+        element.innerHTML = `
+            <div class="speakers">
+            <div class="speaker-img">
+                <img src="${speakers[index].image1}" alt="">
+            </div>
+            <div class="speakers-text">
+                <h5>${speakers[index].names}</h5>
+                <h6>${speakers[index].jobs}</h6>
+                <p>${speakers[index].paragraph}</p>
+            </div>
+            
+        </div>`;
+        document.querySelector('.program-speakers').appendChild(element);
+      }
+    }
+  } else {
+    speakers.forEach((e) => {
+      const element = document.createElement('future-speakers');
+      element.innerHTML = `
+          <div class="speakers">
+          <div class="speaker-img">
+              <img src="${e.image1}" alt="">
+          </div>
+          <div class="speakers-text">
+              <h5>${e.names}</h5>
+              <h6>${e.jobs}</h6>
+              <p>${e.paragraph}</p>
+          </div>
+          
+      </div>`;
+      document.querySelector('.program-speakers').appendChild(element);
+    });
+  }
+});
+
+const loadMore = document.querySelector('#loadMore');
+
+loadMore.addEventListener('click', () => {
   speakers.forEach((e) => {
+    window.scrollBy(0, window.innerHeight / 2);
+
     const element = document.createElement('future-speakers');
     element.innerHTML = `
         <div class="speakers">

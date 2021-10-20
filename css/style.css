@@ -82,9 +82,17 @@ li > a {
   color: #272a31;
 }
 
-.speakers-more a {
+.logo > a {
   text-decoration: none;
-  color: #272a31;
+  color: black;
+}
+
+.speakers-more button {
+  background-color: transparent;
+  border: 1px solid #272a31;
+  padding: 1% 30vw;
+  margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .program-paragraph a {
@@ -194,6 +202,7 @@ a:hover {
 }
 
 .program-paragraph {
+  margin-top: 5%;
   padding: 32px 32px;
   background-color: #ec5242;
 }
@@ -262,12 +271,6 @@ hr {
 
 .speakers-text p {
   font-size: small;
-}
-
-.speakers-more {
-  border: 1px solid #272a31;
-  padding: 1% 30vw;
-  margin-bottom: 50px;
 }
 
 .fa-arrow-down {
