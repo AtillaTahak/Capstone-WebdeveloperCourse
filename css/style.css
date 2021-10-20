@@ -117,7 +117,7 @@ a:hover {
 }
 
 .home-page {
-  background-image: url("/Capstone-WebdeveloperCourse/img/background-1.jpg");
+  background-image: url("/img/background-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -238,7 +238,7 @@ hr {
 }
 
 .speaker-img {
-  background-image: url("/Capstone-WebdeveloperCourse/img/cheked.webp");
+  background-image: url("/img/cheked.webp");
   background-repeat: no-repeat;
   background-size: 150px;
 }
