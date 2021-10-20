@@ -54,6 +54,13 @@ const speakers = [
     jobs: 'Php,mysql Software Developer in Muğla',
     paragraph: 'Serkan Şehvelioğlu he have master degree and six years have experiment',
   },
+  {
+    id: 'speaker-1',
+    image1: './img/speaker-1.jpg',
+    names: 'Serkan Şehvelioğlu',
+    jobs: 'Php,mysql Software Developer in Muğla',
+    paragraph: 'Serkan Şehvelioğlu he have master degree and six years have experiment',
+  },
 ];
 
 window.addEventListener('load', () => {
@@ -101,6 +108,8 @@ window.addEventListener('load', () => {
 const loadMore = document.querySelector('#loadMore');
 
 loadMore.addEventListener('click', () => {
+  document.querySelector('.program-speakers').innerHTML = '';
+
   speakers.forEach((e) => {
     window.scrollBy(0, window.innerHeight / 2);
 
