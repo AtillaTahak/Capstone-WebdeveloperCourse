@@ -41,11 +41,12 @@
 }
 
 footer {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 30vh;
 }
 
 .footer-logo i {
@@ -162,6 +163,9 @@ a:hover {
 .title h1 {
   color: #ec5242;
   font-size: 3rem;
+  background-image: url("/img/txtbg.jpg");
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 .title-content {
