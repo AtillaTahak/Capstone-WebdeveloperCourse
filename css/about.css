@@ -15,8 +15,9 @@
 .title-date {
   margin-top: 25px;
 }
-.title h1{
-  color: #EC5242;
+
+.title h1 {
+  color: #ec5242;
 }
 
 .title-date span {
@@ -78,7 +79,6 @@ footer {
   align-items: center;
   background-color: white;
   color: #272a31;
-
 }
 
 .footer-logo i {
@@ -155,7 +155,6 @@ footer {
   padding-bottom: 40px;
 }
 
-
 @keyframes slinder {
   from {
     transform: rotate(270deg);
@@ -180,13 +179,14 @@ footer {
   .course-1 {
     margin-right: 20px;
   }
-  footer{
+
+  footer {
     margin-top: 5%;
     background-color: #272a31;
     color: white;
   }
-  .partners{
+
+  .partners {
     display: none;
   }
-
 }
