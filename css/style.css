@@ -162,7 +162,7 @@ a:hover {
 
 .title h1 {
   font-size: 3rem;
-  background-image: url("/img/txtbg.jpg");
+  background-image: url("../img/txtbg.jpg");
   color: transparent;
   -webkit-background-clip: text;
 }
