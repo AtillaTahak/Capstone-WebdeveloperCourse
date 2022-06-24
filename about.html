@@ -4,136 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/695f3209b8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/about.css">
-    <title>Best On World Web Development Course</title>
+    <title>About Web Developer Course</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mobile.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="assets/css/desktop.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <section class="desktop-header">
-        <div class="social-link">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i>
-            </a>
-            <a href="#">Mypage</a>
-            <a href="#">Korean</a>
-            <a href="#">Logout</a>
-        </div>
-        <nav class="desktop-nav">
-            <div class="logo">
-                <a href="index.html"> <i class="fas fa-code"></i></a>
+    <header class="bar-section">
+        <nav class="top-header">
+            <div class="top-wrapper">
+                <ul class="link-rx">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                </ul>
+                <ul class="link-info">
+                    <li>English</li>
+                    <li>Sign Up</li>
+                    <li>Login</li>
+                </ul>
             </div>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li> <a href="#">Program</a> </li>
-                <li> <a href="#">Join</a> </li>
-                <li> <a href="#">Sponsor</a></li>
-                <li><a href="#">News</a></li>
-                <li class="nav-box"> <a href="#">CC Campaign</a> </li>
-            </ul>
         </nav>
-
-    </section>
-
-    <section class="home-page">
-        <header>
-            <nav class="mobile-nav">
-                <i id="mobile-menu" class="fa fa-bars"></i>
-            </nav>
-             <div class="mobile-module-overlay">
-             </div>
-             <nav class="desktop-module-nav">
-                <ul>
-                    <li><i class="fas fa-times modal-1"></i></li>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html#welcome" tabindex="1">
+                    <img src="./assets/images/logo.png" alt="Conference Organizers Logo" class="conference-logo logo-effect"/>
+                </a>
+            </div>
+            <div class="menu-overlay">
+                <a href="#" class="closeMenu"> 
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+                <ul class="nav-list menu-mobile">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li> <a href="#">Program</a> </li>
-                    <li> <a href="#">Join</a> </li>
-                    <li> <a href="#">Sponsor</a></li>
-                    <li><a href="#">News</a></li>
-                 </ul>
-
-             </nav>
-
-        </header>
-
-        <div class="title">
-            <h5>"Development Future"</h5>
-            <h1>Programming & Development 2021</h1>
-        </div>
-        <div class="title-content">
-            <p>
-                Programming is a critical skill in today’s economy, and there is a shortage of qualified developers.
-                Whether you’re new to coding, adding more skills, or advancing your career, 10 hours a week will
-                prepare you for your ideal developer job.
+                    <li><a href="index.html#program">Program</a></li>
+                    <li><a href="index.html#speakers">Speakers</a></li>
+                    <li><a href="index.html#partners" >Partners</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a class="btn btn-ticket" href="#!">Buy Tickets now</a></li>
+                </ul>
+            </div>
+            <div class="menu-bars" id="mobileMenuButton">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="welcome">
+        <div class="welcome-container">
+            <h3>More about this event</h3>
+            <h1>Creativity and security in Automation of Business Processes</h1>
+            <div class="about-conference-description">
+                The National Software Developers Course brings together the community of experts, 
+                academics, and activists who comprise the Creative Commons affiliate network in a different country every two years. 
+                This year, we hope to expand our invitation list including organizations and invidivuals who want to work with us on shared projects 
+                that advance the cause of the Commons, free culture and open knowledge. 
+            </div>
+            <p class="info">
+                <i>Please contact us by Email for any further questions about the National Course Conference 2021</i>
+            </p>
+            <p class="info">
+                <b><a class="mabout" href="mailto:atillatahaa@gmail.com"> atillatahaa@gmail.com</a></b>
             </p>
         </div>
-
-        <div class="title-date">
-            <span>Please contact us per Email for any further question About CC Global Summit 2015</span>
-        </div>
     </section>
-    <section class="content">
-        <h2>Creative Commons Global Summit 2015 Log</h2>
-        <hr>
-        <p>The logo of CC Global Summit 2015 was decided through the logo competition from 8. June to 7. July</p>
-        <div class="about-logo">
-            <i class="fas fa-code"></i>
-
-        </div>
-
-    </section>
-    <hr class="hor-line">
-    <section class="content-second">
-        <h2>See the past CC Global Summits</h2>
-        <hr>
-        <p>Take a look at the two CC Global Summits which took place in Buenos Aires and in Warsaw</p>
-        <div class="courses">
-            <div class="course-1">
-                <h2>2013</h2>
-                <p>CC Global Summit 2013 in Buenos Aires</p>
+    <section class="see-past-conference">
+        <div class="past-wrapper">
+            <div class="header">
+                <h2>See past National Course Events</h2>
+                <div class="program-line"></div>
             </div>
-            <div class="course-2">
-                <h2>2011</h2>
-                <p>CC Global Summit 2011 in Warsaw</p>
+            <div class="events">
+                <div class="past-event event1">
+                    <div class="event-text">
+                        <h4>2019</h4>
+                        <span>Culture and Diversity in IT</span>
+                    </div>
+                  
+                </div>
+           
+                <div class="past-event event2">
+                    <div class="event-text">
+                        <h4>2020</h4>
+                        <span>Women Development in the Tech Space</span>
+                    </div>
+                </div>
             </div>
         </div>
-    
-
     </section>
-
-
-    <section class="partners">
-        <div class="program-speakers-title">
-            <h2 class="partner-title">Partner</h2>
-            <hr>
-        </div>
-        <div class="partners-icons">
-            <ul>
-                <li class="partners-icon">
-                    <img src="img/example-2.png" alt="sponsor">
+    <section class="partners" id="partners">
+        <div class="partners-wrapper">
+            <div class="main-title">
+                <h2>Partners</h2>
+                <div class="program-line"></div>
+            </div>
+             <ul class="partners-main">
+                <li class="partners-item">
+                    <img src="./assets/images/partner/mozilla.png" alt="Mozilla">
                 </li>
-                <li class="partners-icon">
-                    <img src="img/example-2.png" alt="sponsor">
+                <li class="partners-item">
+                    <img src="./assets/images/partner/naver.png" alt="Facebook">
                 </li>
-                <li class="partners-icon">
-                    <img src="img/example-2.png" alt="sponsor">
+                <li class="partners-item">
+                    <img src="./assets/images/partner/amazone.png" alt="Amazon">
+                </li>
+                <li class="partners-item">
+                    <img src="./assets/images/partner/google-logo.png" alt="Google">
                 </li>
             </ul>
         </div>
     </section>
     <footer>
-        <div class="footer-logo">
-            <i class="fas fa-code"></i>
+        <div class="fcontainer">
+            <div class="flogo">
+                <a href="index.html#welcome" tabindex="1">
+                    <img src="./assets/images/logo.png" alt="Conference Organizers Logo" class="conference-logo"/>
+                </a>
+            </div>
+            <div class="writeup">
+                <span>Copyright © 2021 All rights reserved | Directorate of Software, <b>Turkey</b></span>
+            </div>
         </div>
-        <div class="footer-text">
-            <p>2021 Web Developer Course All Rights Reserverd</p>
-            <p>Best WebDeveloper Course Template</p>
-
-
-        </div>
-
     </footer>
-    <script src="./js/main.js"></script>
+    <script src="./assets/js/navbar.js"></script>
 </body>
 </html>

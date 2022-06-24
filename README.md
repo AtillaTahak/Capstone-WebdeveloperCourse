@@ -3,9 +3,10 @@
 # Module 1: Capstone Project
 
 > Building a personalized Captone-project to review the things learned so as to show an understanding and mastery of fundamentals learned.
-
-![screenshot](./app_screenshot.png)
-
+> Desktop
+![screenshot](./app_screenshot.jpg)
+> Mobile
+![screenshot](./app_screenshot1.jpg)
 
 ## Built With
 
